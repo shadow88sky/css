@@ -1,0 +1,46 @@
+<style>
+    img {
+        vertical-align: baseline;
+    }
+
+    span.raise {
+        vertical-align: super;
+    }
+
+    span.lower {
+        vertical-align: sub;
+    }
+
+    .feeder {
+        vertical-align: bottom;
+    }
+
+    img {
+        width: 30px;
+        height: 30px
+    }
+
+    img.tbot {
+        vertical-align: text-bottom;
+    }
+</style>
+<p>The image found in this paragraph <img src="../字体/字体.svg"
+         alt="A dot" /> has its bottom edge aligned with the baseline of the text in the paragraph.
+</p>
+<div>
+    <p>This paragraph contains <span class="raise">superscripted</span> and <span class="lower">subscripted</span> text.
+    </p>
+    <p>This paragraph, as you can see quite clearly, contains a <img src="../字体/字体.svg"
+             alt="tall"
+             class="feeder" /> image and a <img src="../字体/字体.svg"
+             alt="short"
+             class="feeder" /> image, and then some text that is not tall.</p>
+
+    <p>Here: a <img src="../字体/字体.svg"
+             style="vertical-align: middle;"
+             alt="tall" /> image, and then a
+        <lmg src="short.gif"
+             class="tbot"
+             alt="short" /> image.</p>
+
+</div>
