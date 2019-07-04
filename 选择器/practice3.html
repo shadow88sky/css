@@ -1,0 +1,28 @@
+<!--
+    这将选择所有直接跟随a的B元素。它们在同一水平或深度上。
+    在此级别的HTML标记中，具有相同缩进的元素是同级元素。
+-->
+<html>
+<style type="text/css">
+    plate+apple {
+        background-color: yellow
+    }
+</style>
+
+<body>
+    <div class="table">
+        <bento>
+            <apple class="small" />
+        </bento>
+        <plate />
+        <!--取这里-->
+        <apple class="small" />
+        <plate />
+        <!--取这里-->
+        <apple />
+        <apple class="small" />
+        <apple class="small" />
+    </div>
+</body>
+
+</html>

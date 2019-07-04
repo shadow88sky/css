@@ -1,0 +1,25 @@
+<!--
+    从父级的底部选择子级。这就像第n个孩子，但是从后面数!
+-->
+<html>
+<style type="text/css">
+    bento:nth-last-child(3) {
+        background-color: yellow
+    }
+</style>
+
+<body>
+    <div class="table">
+        <plate />
+        <!--取这里-->
+        <bento />
+        <plate>
+            <orange />
+            <orange />
+            <orange />
+        </plate>
+        <bento />
+    </div>
+</body>
+
+</html>

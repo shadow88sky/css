@@ -1,0 +1,30 @@
+<!--
+    您可以选择跟随它的元素的所有兄弟元素。这类似于相邻的选择器(A + B)，只不过它获取的是以下所有元素，而不是一个。
+-->
+<html>
+<style type="text/css">
+    bento~pickle {
+        background-color: yellow
+    }
+</style>
+
+<body>
+    <div class="table">
+        <pickle />
+        <bento>
+            <orange class="small" />
+        </bento>
+        <!--取这里-->
+        <pickle class="small" />
+        <!--取这里-->
+        <pickle />
+        <plate>
+            <pickle />
+        </plate>
+        <plate>
+            <pickle class="small" />
+        </plate>
+    </div>
+</body>
+
+</html>

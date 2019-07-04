@@ -1,0 +1,34 @@
+<!--
+example:
+p span:only-of-type selects a span within any p if it is the only span in there.
+-->
+<html>
+
+<body>
+    <html>
+    <style type="text/css">
+        apple.small:only-of-type {
+            background-color: yellow
+        }
+    </style>
+
+    <body>
+        <div class="table">
+            <plate id="fancy">
+                <apple class="small" />
+                <apple />
+            </plate>
+            <plate>
+                <!--取这里-->
+                <apple class="small" />
+            </plate>
+            <plate>
+                <pickle />
+            </plate>
+        </div>
+    </body>
+
+    </html>
+</body>
+
+</html>
