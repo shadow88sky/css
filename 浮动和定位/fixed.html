@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+        body {
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+
+        #tapbar {
+            position: fixed;
+            height: 30px;
+            line-height: 30px;
+            width: 100%;
+            background-color: #f5f5f5;
+            top: 20px;
+            left: 0;
+            z-index: -1;
+        }
+
+        #container {
+            background-color: #a0c8ff;
+            border: 1px dashed #000000;
+            width: 96%;
+            margin: 30px auto auto;
+            height: 1500px;
+        }
+
+        #container div {
+            background-color: #fff0ac;
+            border: 1px solid #000000;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="tapbar">固定定位栏</div>
+    <div id="container">
+        <div>Box-1</div>
+        <div>Box-2</div>
+        <div>Box-3</div>
+    </div>
+</body>
+
+</html>

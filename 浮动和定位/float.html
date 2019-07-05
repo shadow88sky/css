@@ -1,0 +1,36 @@
+<!--
+    1. 浮动的margin不会合并
+-->
+<html>
+<style>
+    * {
+        width: 100%
+    }
+
+    span,
+    div {
+        margin: 100px
+    }
+
+    a {
+        margin: 150px
+    }
+
+    .father {
+        float: left;
+    }
+</style>
+
+<body>
+    <div>
+        <span>测试</span>
+        </br>
+        <a href="#">点击标签</a>
+    </div>
+    <div class='father'>
+        <span>123123123</span></br>
+        <span>123123123</span>
+    </div>
+</body>
+
+</html>
